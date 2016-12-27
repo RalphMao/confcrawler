@@ -1,3 +1,5 @@
+A crawler for academic confereces. All papers in AAAI, NIPS, ACL, AISTATS and AIIDE from year 2010 to 2016 are crawled. For academic use only.
+
 Install prerequisites:
 
     pip install -r requirements.txt
@@ -14,9 +16,11 @@ Prepare dataset: (depending on your network status, it will typically take 1-3 h
 
     python confcrawler/util.py
 
-Direct download datasets:
+To direct download datasets, run the following commands:
 
     cd data; ./get_data.sh
+
+Or visit the website: http://web.stanford.edu/~huizi/confdata/
 
 To custom year range of the dataset, edit the year range in `confcrawler/util.py`. 
 
